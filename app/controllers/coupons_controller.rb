@@ -15,14 +15,6 @@ class CouponsController < ApplicationController
         redirect_to @coupon
     end
 
-    def edit
-        redirect_to @coupon
-    end
-
-    def delete
-        @coupon.destroy
-        redirect_to coupons_path
-    end
 
     private
 
